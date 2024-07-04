@@ -13,7 +13,8 @@ interface Homepage {
     title: string;
     content: string;
     image: string;
-    button: Button;
+    button1: Button;
+    button2: Button;
   };
   features: Feature[];
 }
@@ -36,24 +37,39 @@ const { banner, features }: Homepage = homepage.data;
           />
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
-            banner.button.enable && (
+            banner.button1.enable && (
               <a
                 class="btn btn-primary"
-                href={banner.button.link}
+                href={banner.button1.link}
                 target={
-                  banner.button.link.startsWith("http") ? "_blank" : "_self"
+                  banner.button1.link.startsWith("http") ? "_blank" : "_self"
                 }
                 rel="noopener"
               >
-                {banner.button.label}
+                {banner.button1.label}
+              </a>
+            )
+          }
+          {
+            banner.button2.enable && (
+              <a
+                class="btn border border-black"
+                href={banner.button2.link}
+                target={
+                  banner.button2.link.startsWith("http") ? "_blank" : "_self"
+                }
+                rel="noopener"
+              >
+                {banner.button2.label}
               </a>
             )
           }
         </div>
         {
           banner.image && (
-            <div class="col-12">
+            <div class="col-12 ">
               <ImageMod
+                class="rounded-xl"
                 src={banner.image}
                 height={380}
                 width={1200}

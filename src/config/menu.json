@@ -5,44 +5,22 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Packages",
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "Gallery",
       "url": "/elements"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
-        }
-      ]
+      "name": "Hotels",
+      "url": "/elements"
+    },
+    {
+      "name": "Contact us",
+      "url": "/elements"
     }
+
   ],
   "footer": [
     {

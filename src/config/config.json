@@ -29,8 +29,9 @@
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "Whatsaap",
+    "image": "images/whatsapp.svg",
+    "link": "https://wa.me/9426880068"
   },
 
   "disqus": {
