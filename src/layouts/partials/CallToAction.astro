@@ -21,11 +21,15 @@ const { call_to_action } = Astro.props;
               />
               {call_to_action.data.button.enable && (
                 <a
-                  class="btn btn-primary flex gap-2 w-40 mx-auto"
+                  class="btn btn-primary flex gap-2 w-48 mx-auto items-center justify-center"
                   href={call_to_action.data.button.link}
                 >
                   {call_to_action.data.button.label}
-                  <img class="" src={call_to_action.data.button.image} alt="" />
+                  <img
+                    class="w-4"
+                    src={call_to_action.data.button.image}
+                    alt=""
+                  />
                 </a>
               )}
             </div>
