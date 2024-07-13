@@ -1,27 +1,23 @@
 ---
 enable: true
-title: "What Users Are Saying About Astroplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
+title: "Why Choose ZAM ZAM Tours"
+description: "We go to great lengths to make sure your journey is both safe and comfortable. Our special arrangements feature top-notch hotels, reliable transportation, delicious meals, and various complimentary services."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Quality Accomodations"
+    avatar: "/images/quality.png"
+    content: "Enjoy comfort and tranquility in our thoughtfully chosen accommodations, crafted to be your home away from home throughout your spiritual journey."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Highest Standard Of Services"
+    avatar: "/images/excellence.png"
+    content: "We are dedicated to excellence, offering you unmatched services that address your every need, ensuring a smooth and seamless Umrah experience."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Better Tour Arrangements"
+    avatar: "/images/arrangements.png"
+    content: "Our carefully planned tour arrangements enable you to concentrate fully on the spiritual aspects of your Umrah."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Trust & Safety"
+    avatar: "/images/trust.png"
+    content: "Your peace of mind is our priority; we guarantee a safe and reliable environment throughout your sacred pilgrimage."
 ---

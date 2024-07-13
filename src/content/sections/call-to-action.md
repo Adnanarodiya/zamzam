@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
-image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+title: "Umrah Guide"
+description: "The Umrah Guide is an all-inclusive resource that offers you everything you need to know about Umrah."
 button:
   enable: true
-  label: "Get Started Now"
+  label: "Read More"
   link: "https://github.com/zeon-studio/astroplate"
+  image: "/images/next.png"
 ---
