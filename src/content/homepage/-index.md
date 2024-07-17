@@ -1,6 +1,8 @@
 ---
 # Banner
 banner:
+  subTitle1: "Authorised Member of"
+  subTitle2: "All India Hajj And Umrah Tours Pvt. Ltd."
   title: "Experience the Spiritual Journey of Hajj & Umrah"
   content: "Performing Umrah Protects one from Poverty - (Ibni Maajah V2 P964)"
   image: "/images/makkah.jpg"

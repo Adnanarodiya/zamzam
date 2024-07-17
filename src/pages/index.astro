@@ -10,6 +10,8 @@ import { FaCheck } from "react-icons/fa";
 
 interface Homepage {
   banner: {
+    subTitle1: string;
+    subTitle2: string;
     title: string;
     content: string;
     image: string;
@@ -31,6 +33,14 @@ const { banner, features }: Homepage = homepage.data;
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-7 md:col-9 mb-8 text-center">
+          <h1
+            set:html={markdownify(banner.subTitle1)}
+            class="mb-4 font-light text-h5 lg:text-h3"
+          />
+          <h1
+            set:html={markdownify(banner.subTitle2)}
+            class="mb-4 font-light text-h5 lg:text-h3"
+          />
           <h1
             set:html={markdownify(banner.title)}
             class="mb-4 text-h3 lg:text-h1"
@@ -155,6 +165,13 @@ const { banner, features }: Homepage = homepage.data;
               </div>
             </div>
           </div>
+          <a
+            class="btn btn-primary flex gap-2 w-48 mx-auto items-center justify-center mt-8"
+            href="https://github.com/zeon-studio/astroplate"
+          >
+            View all hotels
+            <img class="w-4" src="/images/next.png" alt="" />
+          </a>
         </div>
       </div>
     </div>
