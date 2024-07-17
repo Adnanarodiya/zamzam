@@ -8,7 +8,7 @@ banner:
   image: "/images/makkah.jpg"
   button1:
     enable: true
-    label: "Packages"
+    label: "Packages and Food Menu"
     link: "/packages"
   button2:
     enable: true
