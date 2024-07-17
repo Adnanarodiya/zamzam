@@ -22,14 +22,28 @@
     }
 
   ],
-  "footer": [
+  "footerCompany": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Packages",
+      "url": "/packages"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Gallery",
+      "url": "/gallery"
+    },
+    {
+      "name": "Hotels",
+      "url": "/hotels"
+    },
+    {
+      "name": "Contact us",
+      "url": "/contact-us"
+    }
+  ],
+  "footerOthers": [
+    {
+      "name": "Umrah Guide",
+      "url": "/umrah-guide"
     }
   ]
 }
